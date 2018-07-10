@@ -10,5 +10,6 @@ class FibonacciTest {
         for (int i =0; i< cases.length; i++){
             assertEquals(cases[i][1], Fibonacci.fib(cases[i][0]));
         }
+
     }
 }
